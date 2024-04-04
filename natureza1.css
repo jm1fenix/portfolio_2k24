@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: #ede1d3;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.voltar {
+    text-align: center;
+    bottom: 0;
+    width: max-content;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}

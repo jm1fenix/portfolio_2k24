@@ -1,0 +1,155 @@
+body {
+  background-color: #ede1d3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  zoom: 70%;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+
+/* Estilos para os botões de atividades */
+.activity-button {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+
+}
+
+.activity-image {
+  width: 350px;
+  /* Ajuste conforme necessário */
+  height: 200px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  /* Adiciona uma transição para a opacidade */
+  opacity: 0;
+  /* Começa com opacidade 0 */
+}
+
+.activity-button:hover .activity-image {
+  transform: scale(1.1);
+  opacity: 1;
+  /* Altera a opacidade para 1 quando o mouse passa */
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.192);
+  /* Cor de fundo e transparência do overlay */
+  color: white;
+  /* Cor do texto do overlay */
+  font-size: 15px;
+  /* Tamanho da fonte do texto do overlay */
+  padding: 10px 30px;
+  /* Espaçamento interno do overlay */
+  border-radius: 5px;
+  /* Arredondamento das bordas do overlay */
+  font-size: medium;
+}
+
+.activity-button:hover .overlay {
+  opacity: 1;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.elementL {
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.element {
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+
+.activity-background-1917 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/humanas1.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
+.activity-background-sudao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/humanas2.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
+.activity-background-any {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/humanas3.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
+.voltar {
+  text-align: center;
+  bottom: 0;
+  width: max-content;
+  margin: auto;
+  border: 2px solid;
+  border-radius: 10px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
