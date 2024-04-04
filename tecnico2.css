@@ -2,12 +2,6 @@ body {
   text-align: center;
   background-color: rgb(26, 26, 27);
   padding: 1%;
-  zoom: 100%;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-  overflow-y: hidden;
-  /* Hide vertical scrollbar */
-  overflow-x: hidden;
   /* Hide horizontal scrollbar */
   justify-content: center;
   color: white;

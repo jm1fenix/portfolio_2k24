@@ -7,6 +7,8 @@
    /* Hide vertical scrollbar */
    overflow-x: hidden;
    /* Hide horizontal scrollbar */
+   zoom: 110%;
+
  }
 
  nav {

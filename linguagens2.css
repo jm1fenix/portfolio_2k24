@@ -2,13 +2,7 @@ body {
   text-align: center;
   background-color: cornflowerblue;
   padding: 1%;
-  zoom: 80%;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-  overflow-y: hidden;
-  /* Hide vertical scrollbar */
-  overflow-x: hidden;
-  /* Hide horizontal scrollbar */
+  zoom: 90%;
 }
 
 .voltar {
