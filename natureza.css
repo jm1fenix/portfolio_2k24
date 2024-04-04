@@ -24,7 +24,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/public/natureza1.png');
+  background-image: url('./public/natureza1.png');
   background-size: cover;
   opacity: 1;
   transition: opacity 0s;
@@ -109,7 +109,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/public/natureza2.png');
+  background-image: url('./public/natureza2.png');
   background-size: cover;
   opacity: 1;
   transition: opacity 0s;
@@ -123,7 +123,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/public/natureza3.png');
+  background-image: url('./public/natureza3.png');
   background-size: cover;
   opacity: 1;
   transition: opacity 0s;
@@ -136,7 +136,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/public/natureza4.png');
+  background-image: url('./public/natureza4.png');
   background-size: cover;
   opacity: 1;
   transition: opacity 0s;

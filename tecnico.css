@@ -26,7 +26,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/public/tecnico1.png');
+  background-image: url('./public/tecnico1.png');
   background-size: cover;
   opacity: 1;
   transition: opacity 0s;
@@ -111,7 +111,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/public/tecnico2.png');
+  background-image: url('./public/tecnico2.png');
   background-size: cover;
   opacity: 1;
   transition: opacity 0s;
@@ -125,7 +125,7 @@ h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/public/tecnico.png');
+  background-image: url('./public/tecnico.png');
   background-size: cover;
   opacity: 1;
   transition: opacity 0s;

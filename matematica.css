@@ -31,7 +31,7 @@ h4 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/public/matematica1.png');
+  background-image: url('./public/matematica1.png');
   background-size: cover;
   opacity: 1;
   transition: opacity 0s;
@@ -108,33 +108,6 @@ h4 {
   text-align: center;
   margin: auto;
   align-items: center;
-}
-
-.activity-background-sudao {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('/sudao.png');
-  background-size: cover;
-  opacity: 1;
-  transition: opacity 0s;
-  /* Remove a transição */
-  border-radius: 5px;
-}
-
-.activity-background-any {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('/deus.png');
-  background-size: cover;
-  opacity: 1;
-  transition: opacity 0s;
-  border-radius: 5px;
 }
 
 .voltar {
