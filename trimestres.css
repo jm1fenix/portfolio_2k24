@@ -1,0 +1,29 @@
+body {
+    background-color: #ede1d3;
+    font-size: 20px;
+    zoom: 90%;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+  }
+
+  .voltar {
+    text-align: center;
+    bottom: 0;
+    width: max-content;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
