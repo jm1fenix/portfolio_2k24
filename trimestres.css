@@ -5,25 +5,69 @@ body {
     text-align: center;
   }
   
+  nav {
+  
+    overflow: hidden;
+    font-size: 18px;
+ 
+  }
+ 
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+ 
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
   h1 {
     text-align: center;
     font-size: 40px;
     font-style: italic;
   }
-
-  .voltar {
-    text-align: center;
-    bottom: 0;
-    width: max-content;
-    margin: auto;
-    border: 2px solid;
-    border-radius: 10px;
+  a {
+    display: inline-block;
     text-decoration: none;
-    justify-content: center;
+    color: white;
+    background-color: #800000; /* Vinho escuro */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
   }
   
-  a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
+  a:hover {
+    background-color: #600000; /* Tom um pouco mais claro do vinho escuro para o hover */
+    transform: scale(1.05);
   }
+  
+  a:active {
+    background-color: #400000; /* Tom ainda mais escuro para quando o botão é pressionado */
+  }
+  
+  #voltar a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #800000; /* Vinho escuro */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 16px; /* Ajusta o tamanho da fonte conforme necessário */
+}
+
+#voltar a:hover {
+  background-color: #600000; /* Tom um pouco mais claro do vinho escuro para o hover */
+  transform: scale(1.05);
+}
+
+#voltar a:active {
+  background-color: #400000; /* Tom ainda mais escuro para quando o botão é pressionado */
+}

@@ -16,6 +16,27 @@ h1 {
   font-style: italic;
 }
 
+nav {
+  background-color: #333;
+  overflow: hidden;
+  font-size: 18px;
+
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 /* Estilos para os botões de atividades */
 .activity-button {
   position: relative;
@@ -135,17 +156,6 @@ h1 {
   opacity: 1;
   transition: opacity 0s;
   border-radius: 5px;
-}
-
-.voltar {
-  text-align: center;
-  bottom: 0;
-  width: max-content;
-  margin: auto;
-  border: 2px solid;
-  border-radius: 10px;
-  text-decoration: none;
-  justify-content: center;
 }
 
 a {
