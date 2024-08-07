@@ -89,7 +89,7 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 40%;
+  width: 50%;
   margin: auto;
   flex-wrap: wrap;
   height: 100%;
@@ -188,4 +188,9 @@ a {
   text-decoration: none;
   color: black;
   padding: 10px;
+}
+
+.bf {
+text-decoration: underline;
+color: navy;
 }
