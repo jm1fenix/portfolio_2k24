@@ -50,15 +50,13 @@
    text-align: center;
    display: block;
    padding: 5px 10px;
-   background-color: #f4f4f4;
-   color: #333;
    text-decoration: none;
  }
 
- .links-externos li a:hover {
-   background-color: #333;
-   color: white;
- }
+  .links-externos li a:hover {
+    background-color: #333;
+    color: white;
+  }
 
  h2 {
    padding-top: 20px;
@@ -112,3 +110,25 @@
    left: 695px;
    border-color: transparent;
  }
+
+ .linkedin{
+  background-color: #66c4e9;
+  color: aliceblue;
+ }
+
+ .github{
+  background-color: blueviolet;
+  color: aliceblue;
+ }
+
+ .port22{
+  background-color: darkorange;
+  color: aliceblue;
+ }
+ 
+ .port23{
+  background-color: darkorange;
+  color: aliceblue;
+ }
+ 
+ 

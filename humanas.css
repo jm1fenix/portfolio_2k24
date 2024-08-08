@@ -21,6 +21,7 @@ nav {
   overflow: hidden;
   font-size: 18px;
 
+
 }
 
 nav a {
@@ -191,6 +192,6 @@ a {
 }
 
 .bf {
-text-decoration: underline;
-color: navy;
+  text-decoration: underline;
+  color: navy;
 }
