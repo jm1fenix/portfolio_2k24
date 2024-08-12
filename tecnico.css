@@ -99,7 +99,7 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 40%;
+  width: 55%;
   margin: auto;
   flex-wrap: wrap;
   height: 100%;
@@ -153,6 +153,31 @@ nav a:hover {
   border-radius: 5px;
 }
 
+.activity-background-cascata {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/modelagem1.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
+.activity-background-figmaSA {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/modelagem2.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
 a {
   text-decoration: none;
   color: black;
