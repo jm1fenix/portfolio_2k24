@@ -60,6 +60,34 @@ h4 {
   border-radius: 5px;
 }
 
+.activity-background-QaB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/matematica2_1.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
+.activity-background-banco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/matematica2_2.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
 .activity-image {
   width: 350px;
   /* Ajuste conforme necessário */

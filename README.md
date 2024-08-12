@@ -1,3 +1,3 @@
 # portfolio
 
-### Meu portfólio escolar com matérias e projetos.
+### Meu portfólio escolar. Contém matérias e projetos.
