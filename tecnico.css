@@ -41,20 +41,6 @@ nav a:hover {
 
 }
 
-.activity-background-1917 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('./public/tecnico1.png');
-  background-size: cover;
-  opacity: 1;
-  transition: opacity 0s;
-  /* Remove a transição */
-  border-radius: 5px;
-}
-
 .activity-image {
   width: 300px;
   /* Ajuste conforme necessário */
@@ -126,6 +112,20 @@ nav a:hover {
   align-items: center;
 }
 
+.activity-background-1917 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/desenvolvimento1.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
 .activity-background-sudao {
   position: absolute;
   top: 0;
@@ -178,6 +178,35 @@ nav a:hover {
   transition: opacity 0s;
   border-radius: 5px;
 }
+
+.activity-background-regra {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/modelagem3.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
+.activity-background-logico {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/bancodedados1.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
 a {
   text-decoration: none;
   color: black;
