@@ -48,7 +48,7 @@
 
  .links-externos li a {
    text-align: center;
-   display: block;
+   display: flex;
    padding: 5px 10px;
    text-decoration: none;
  }

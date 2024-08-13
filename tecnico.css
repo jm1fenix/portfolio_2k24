@@ -112,20 +112,6 @@ nav a:hover {
   align-items: center;
 }
 
-.activity-background-1917 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('./public/desenvolvimento1.png');
-  background-size: cover;
-  opacity: 1;
-  transition: opacity 0s;
-  /* Remove a transição */
-  border-radius: 5px;
-}
-
 .activity-background-sudao {
   position: absolute;
   top: 0;
@@ -200,6 +186,104 @@ nav a:hover {
   width: 100%;
   height: 100%;
   background-image: url('./public/bancodedados1.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
+.activity-background-medico {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/bancodedados2.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
+.activity-background-normalizacao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/bancodedados3.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
+.activity-background-1917 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/desenvolvimento1.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
+.activity-background-github {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/desenvolvimento2.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
+.activity-background-api {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/desenvolvimento3.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
+.activity-background-biblio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/desenvolvimento4.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
+.activity-background-implantacao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/implantacao1.png');
   background-size: cover;
   opacity: 1;
   transition: opacity 0s;
