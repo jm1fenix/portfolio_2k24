@@ -124,6 +124,16 @@ nav a:hover {
   align-items: center;
 }
 
+.elementM {
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+
 .activity-background-sudao {
   position: absolute;
   top: 0;
@@ -210,6 +220,19 @@ nav a:hover {
   width: 100%;
   height: 100%;
   background-image: url('./public/natureza2_4.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
+.activity-background-curso {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/peenatureza1.png');
   background-size: cover;
   opacity: 1;
   transition: opacity 0s;
