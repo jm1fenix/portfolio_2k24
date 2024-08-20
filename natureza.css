@@ -127,7 +127,7 @@ nav a:hover {
 .elementM {
   margin-bottom: 90px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   margin: auto;
