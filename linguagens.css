@@ -179,6 +179,32 @@ h2{
   border-radius: 5px;
 }
 
+.activity-background-poema {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/linguagens2_2.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
+.activity-background-maquete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/linguagens2_3.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
 a {
   text-decoration: none;
   padding: 10px;
