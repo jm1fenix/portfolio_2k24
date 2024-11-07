@@ -1,10 +1,9 @@
-/* Estilos opcionais para a barra de navegação */
 body {
   background-color: #ede1d3;
   min-height: 100vh;
   min-height: -webkit-fill-available;
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: hidden;
+  overflow-x: hidden;
   zoom: 110%;
 }
 
@@ -14,8 +13,8 @@ nav {
   align-items: center;
   padding: 0 20px;
   font-size: 18px;
-  position: relative; /* Para permitir o posicionamento absoluto do botão */
-  justify-content: space-between; /* Distribui o espaço entre os itens */
+  position: relative;
+  justify-content: space-between;
 }
 
 .nav-left {
@@ -53,7 +52,6 @@ nav {
   color: black;
 }
 
-/* Estilos adicionais para o botão */
 .button {
   background-color: #333;
   color: rgb(255, 255, 255);
@@ -70,7 +68,6 @@ nav {
   font-family: 'Times New Roman', Times, serif;
 }
 
-/* Estilos adicionais para os outros elementos */
 h2 {
   padding-top: 20px;
   font-size: 27px;

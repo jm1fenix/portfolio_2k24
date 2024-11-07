@@ -172,6 +172,32 @@ nav a:hover {
   border-radius: 5px;
 }
 
+.activity-background-ditadura {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/humanas2_3.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
+.activity-background-julgamento {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/humanas1_3.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
 .activity-background-any {
   position: absolute;
   top: 0;
