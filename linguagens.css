@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 20px;
-  zoom: 80%;
+  zoom: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -228,6 +228,19 @@ h2{
   width: 100%;
   height: 100%;
   background-image: url('./public/linguagens_modernismo.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
+.activity-background-tropicalismo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/linguagens_tropicalismo.png');
   background-size: cover;
   opacity: 1;
   transition: opacity 0s;
