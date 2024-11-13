@@ -187,6 +187,19 @@ nav a:hover {
   border-radius: 5px;
 }
 
+.activity-background-deseq {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/natureza_desequilibrio.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
 .activity-background-mapamental {
   position: absolute;
   top: 0;
@@ -212,6 +225,46 @@ nav a:hover {
   transition: opacity 0s;
   border-radius: 5px;
 }
+
+.activity-background-usina {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/natureza_usina.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
+.activity-background-ambiente {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/natureza_ambiente.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
+.activity-background-ondas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/natureza_ondas.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  border-radius: 5px;
+}
+
 
 .activity-background-autoral {
   position: absolute;
