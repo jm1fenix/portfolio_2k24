@@ -115,7 +115,6 @@ h2{
   text-align: center;
   margin: auto;
   align-items: center;
-  justify-content: space-between;
 }
 
 .element {
@@ -140,6 +139,11 @@ h2{
   transition: opacity 0s;
   /* Remove a transição */
   border-radius: 5px;
+}
+
+.elementL p {
+  text-align: right;
+  width: 50%; /* Define uma largura mais confortável para o texto */
 }
 
 .activity-background-sudao {
@@ -321,4 +325,5 @@ a {
 
 .carrossel{
   margin-bottom: -10px;
+  margin-top: 100px;
 }
