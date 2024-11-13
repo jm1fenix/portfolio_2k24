@@ -74,6 +74,20 @@ h4 {
   border-radius: 5px;
 }
 
+.activity-background-platao {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/matematica_platao.png');
+  background-size: cover;
+  opacity: 1;
+  transition: opacity 0s;
+  /* Remove a transição */
+  border-radius: 5px;
+}
+
 .activity-background-banco {
   position: absolute;
   top: 0;
@@ -159,6 +173,15 @@ h4 {
   align-items: center;
 }
 
+.elementM {
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
 a {
   text-decoration: none;
   color: black;
